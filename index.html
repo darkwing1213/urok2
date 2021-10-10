@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Знакомство с html тегами</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="bg">
+		<div class="conteiner">
+			<div class="menu">
+				<a href="#"><img src="img/icon/logo.png" alt="logo"></a>
+				<ul class="menu__nav">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Фильмы</a></li>
+					<li><a href="#">Кинотеатры</a></li>
+					<li><a href="#">События</a></li>
+					<li><a href="#">Поддержка</a></li>
+				</ul>
+				<p class="menu__hi">Привет, Мила</p>
+				<img class="menu__icon" src="img/icon/Rectangle 1.png" alt="icon">
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="film-description bg">
+			<div class="conteiner">
+				<div class="film-description__play">
+				    <div class="film-description__estimation">
+					    <p class="Avengers">Avengers: Infinity War</p>
+					    <h1>Мстители: война бесконечности</h1>
+					    <p class="text">Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с которыми не смог бы справиться один супергерой, новая угроза возникает из космоса: Танос. Межгалактический тиран преследует цель собрать все шесть Камней Бесконечности - артефакты невероятной силы, с помощью которых можно менять реальность по своему желанию. Всё, с чем Мстители сталкивались ранее, вело к этому моменту – судьба Земли никогда ещё не была столь неопределённой.</p>
+				    </div>
+				    <a class="film-description__trailer" href="#"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+				    	<circle cx="50" cy="50" r="50" fill="white"/>
+				    	<g clip-path="url(#clip0)">
+				    		<path d="M43.0758 30.0033C39.3071 27.8416 36.2518 29.6125 36.2518 33.9556V66.0059C36.2518 70.3533 39.3071 72.1219 43.0758 69.9623L71.0893 53.8967C74.8592 51.7342 74.8592 48.2306 71.0893 46.0686L43.0758 30.0033Z" fill="#F20D01"/>
+				    	</g>
+				    	<defs>
+				    		<clipPath id="clip0">
+				    			<rect width="41.8013" height="41.8013" fill="white" transform="translate(34.1837 29.0816)"/>
+				    		</clipPath>
+				    	</defs>
+				    	</svg>
+					</a>
+				</div>
+				<div class="film-statistics">
+					<img src="img/icon/clock 1.svg" alt="">
+					<p class="time">240 мин.</p>
+					<img class="imdb" src="img/icon/imdb.svg" alt="">
+					<p class="estimation"><span>9.2</span> / 10</p>
+				</div>	
+			</div>
+		</section>
+		<section class="section-data">
+			<div class="conteiner">
+				<div class="section-data__row">
+					<div class="section-data__numbers">
+						<h2>Дата</h2>
+						<div class="section-data__columns">
+							<div class="section-data__column">
+								<p class="month">АПР</p>
+								<p class="date">27</p>
+								<p class="day">ПТ</p>
+							</div>
+							<div class="section-data__column">
+								<p class="month">АПР</p>
+								<p class="date">28</p>
+								<p class="day">СБ</p>
+							</div>
+							<div class="section-data__column">
+								<p class="month">АПР</p>
+								<p class="date">29</p>
+								<p class="day">ВС</p>
+							</div>
+							<div class="section-data__column">
+								<p class="month">АПР</p>
+								<p class="date">30</p>
+								<p class="day">ПН</p>
+							</div>
+						</div>
+					</div>
+					<div class="section-data__place">
+						<h2>Кинотеатр</h2>
+						<select class="select" name="cinema">
+							<option value="Октябрь, ул. Калужская 28">Октябрь, ул. Калужская 28</option>
+							<option value="Киномакс, ул. Северная 3">Киномакс, ул. Северная 3</option>
+							<option value="Алмаз, ул. Революции 33">Алмаз, ул. Революции 33</option>
+							<option value="Родник, ул. Воровского 99">Родник, ул. Воровского 99</option>
+						</select>
+					</div>
+					<div class="section-data__time">
+						<h2>Время</h2>
+						<select class="select-time" name="cinema">
+							<option value="23:00">23:00</option>
+							<option value="23:00">23:10</option>
+							<option value="23:00">23:30</option>
+							<option value="23:00">23:50</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
